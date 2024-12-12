@@ -1,0 +1,106 @@
+/* Importar la fuente Roboto desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo general para el cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Color de fondo claro */
+    color: #ffffff; /* Color del texto */
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Negrita */
+    color: #ffffff; /* Color más oscuro para encabezados */
+}
+
+/* Párrafos y texto general */
+p, span, div, li, ul, ol {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Peso normal */
+    color:#ffffff; /* Color estándar */
+}
+
+/* Enlaces */
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #1a73e8; /* Azul típico para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botones de Streamlit */
+.stButton>button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: #1a73e8; /* Azul Google */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #1665c1; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Inputs de Streamlit */
+input, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Títulos de secciones */
+.css-1v0mbdj h1 { /* Clase específica de Streamlit para encabezados principales */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Ajustes para tablas */
+table {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    font-weight: 700;
+    background-color: #f2f2f2;
+}
+
+/* Añadir un poco de margen a los contenedores */
+.css-1d391kg { /* Clase de Streamlit para contenedores generales */
+    margin: 20px 0;
+}
+
+/* Opcional: Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 0.5s ease-in-out;
+}
