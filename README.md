@@ -1,19 +1,17 @@
-# 🌿 Herramienta de Evaluación de Impacto Ambiental 🌍
+# 🌿 Environmental Impact Assessment Tool 🌍
 
-¡Bienvenido a la herramienta de Evaluación de Impacto Ambiental! Este proyecto utiliza **Streamlit** para crear una aplicación interactiva que evalúa y presenta datos relacionados con el impacto ambiental de distintas infraestructuras. 🚀
-## 🌟 Funcionalidades
+Welcome to the Environmental Impact Assessment Tool! 
+This project uses Streamlit to create an interactive application that evaluates and presents data related to the environmental impact of various infrastructures. 🚀
 
-- 📈 **Histogramas**: Visualiza gráficos interactivos de distribución de datos.
-- 🌍 **Edificios**: Analiza la información de los edificios en el área.
-- 🛣️ **Carreteras**: Evalúa las carreteras y su impacto.
-- 📈 **Distribuciones**: Explora distribuciones específicas de los datos.
-- 🧱 **Suelos Afectados**: Examina cómo los proyectos afectan al terreno.
-- 🌐 **Gestión SQL**: Administración de bases de datos y usuarios.
+## 🌟 Features
 
-## 🎨 Estilo y Diseño
+- 📈 Histograms: Visualize interactive distribution graphs.
+- 🌍 Buildings: Analyze information about buildings in the area.
+- 🛣️ Roads: Evaluate roads and their impact.
+- 📈 Distributions: Explore specific data distributions.
+- 🧱 Affected Soils: Examine how projects affect the land.
+- 🌐 SQL Management: Manage databases and users.
+  
+##  🎨 Style and Design
 
-El proyecto incluye un módulo de estilos personalizado para darle una apariencia moderna y profesional, utilizando **CSS** y funciones auxiliares.
-
----
-
-Guarda este código en tu `README.md` y aparecerá exactamente como lo necesitas en GitHub. 😊
+The project includes a custom styling module to give it a modern and professional look, utilizing CSS and auxiliary functions.
