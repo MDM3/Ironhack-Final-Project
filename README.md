@@ -14,17 +14,29 @@ So far, the parameters what I choose for work are:
 - Buildings
 - Rivers
 - Public transport (railway...)
+- Land Cover
+- Spanish Cadastre
 
 ## 🌟 Features
 
 - 📈 Histograms:
-   - distribution of distance from buildings and roads to nearest water cover. Also, the number of buildio
+   - Distribution of distance from buildings and roads to nearest water cover.
+   - Distribution of affected areas by land cover.
+   - Also, the number of buildings that could be affected less than a 1000m 
 
-- 🌍 Buildings: Analyze information about buildings in the area.
-- 🛣️ Roads: Evaluate roads and their impact.
-- 📈 Distributions: Explore specific data distributions.
+- 🏢 Buildings:
+   - Interactive map where you can choose the town and check out what buildings are affected or not.
+   - Labels. You can check the cadastral reference and the mean distance from the nearest river.
+     
+- 🛣️ Roads:
+   - You can filter for highway/freeway, secondary roads, paths, bike paths.
+   - See the length affected for the flows and mean distance to the nearest river.
+     
 - 🧱 Affected Soils: Examine how projects affect the land.
+  
 - 🌐 SQL Management: Manage databases and users.
+
+- 📦 Queries pre-defined
   
 ##  🎨 Style and Design
 
