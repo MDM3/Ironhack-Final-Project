@@ -18,7 +18,7 @@ So far, the parameters what I choose for work are:
 ## 🌟 Features
 
 - 📈 Histograms:
---   distribution of distance from buildings and roads to nearest water cover. Also, the number of buildio
+   - distribution of distance from buildings and roads to nearest water cover. Also, the number of buildio
 
 - 🌍 Buildings: Analyze information about buildings in the area.
 - 🛣️ Roads: Evaluate roads and their impact.
