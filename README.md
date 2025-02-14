@@ -5,7 +5,7 @@ This project uses Streamlit to create an interactive application that evaluates 
 
 I have taken this project as an opportunity to analyze the devastating DANA event that struck Valencia in October 2024. As we know, not all areas were equally affected, and understanding these patterns is crucial for future risk assessment and mitigation.
 
-The data have been collected from 🌍[IGN (Insituto Geografico Nacional)](http://www.ign.es/)🌍. All the data collected from shapefiles have been processed with ArcGIS, taking just the information I wanted for this purpose. After that, I exported it and processed as an ETL pipeline, cleaning, filtering, fixing and organizing it. 
+The data have been collected from 🌍[IGN (Insituto Geografico Nacional)](http://www.ign.es/). All the data collected from shapefiles have been processed with ArcGIS, taking just the information I wanted for this purpose. After that, I exported it and processed as an ETL pipeline, cleaning, filtering, fixing and organizing it. 
 
 The goal of this project is create a machine learning model,allowing you to check if you are living or buying a property in a flood risk area. Machine Learning model is still not implemented, Im working on that but the key 🔑 is the [DTM (Digital Terrain Model](https://en.wikipedia.org/wiki/Digital_elevation_model). As you know water always find the best ways to flow, so DTM working with ML could show you up very interesting results even if you modify the terrain in a construction project.
 
